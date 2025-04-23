@@ -16,20 +16,19 @@ h1 {
 }
 
 .container {
-  width: 360px;
+  width: 400px;
   margin: 50px auto;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px #000001;
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 
 .display {
   background-color: rgba(0, 0, 0, 0.5);
-  color: #00ffcc;
+  color: #ffffff;
   padding: 20px;
   border-radius: 12px;
   font-size: 26px;
@@ -41,7 +40,7 @@ h1 {
 
 .display .result {
   font-size: 18px;
-  color: #a3f7bf;
+  color: #ffff;
   font-weight: normal;
   margin-top: 5px;
 }
@@ -60,7 +59,7 @@ button {
   border-radius: 14px;
   background: #2f2f46;
   color: #fff;
-  box-shadow: 4px 4px 10px #1a1a2e, -4px -4px 10px #3a3a55;
+  box-shadow: 4px 4px 10px #1a1a2e,;
   transition: all 0.2s ease;
 }
 
@@ -75,13 +74,13 @@ button:active {
 }
 
 button:nth-child(4),button:nth-child(8),button:nth-child(12),button:nth-child(16) {
-  background: linear-gradient(to right, #ff9800, #ffc107);
+  background:#ff9800;
   color: #fff;
   font-weight: bold;
 }
 
 button:nth-child(4):hover,button:nth-child(8):hover,button:nth-child(12):hover,button:nth-child(16):hover {
-  background: linear-gradient(to right, #ffb74d, #ffd54f);
+  background: #ffb74d;
 }
 
 button:nth-child(17),
